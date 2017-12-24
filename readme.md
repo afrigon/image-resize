@@ -43,18 +43,6 @@ And you're done, you can now run the program with the help flag to see the usage
 ./image-resize -h
 ```
 
-If you plan on using Image-resize frequently you can make it available from anywhere on your system by moving it
-
-```sh
-sudo mv image-resize /usr/bin/image-resize
-```
-
-then you'll be able to do this from anywhere
-
-```sh
-image-resize -v
-```
-
 ## Documentation
 
 ### Usage
