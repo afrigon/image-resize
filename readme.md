@@ -1,6 +1,6 @@
 ![](http://res.cloudinary.com/frigstudio/image/upload/v1514115143/image-resize-banner_guzwlg.jpg)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Dependency Status](https://david-dm.org/afrigon/image-resize/status.svg)](https://david-dm.org/afrigon/image-resize)
 
 This command line interface enables you to resize squared inmages to desired size super quickly.
@@ -13,7 +13,7 @@ This command line interface enables you to resize squared inmages to desired siz
 
 ## Examples
 
-In this example my source is a directory located at ```~/project/logos``` and my destination is a directory located at ```~/project/output```. All the images contained in the logo directory will have new copies resized at ```128x128```, ```256x256``` and ```512x512```.
+In this example my source is a directory located at `~/project/logos` and my destination is a directory located at `~/project/output`. All the images contained in the logo directory will have new copies resized at `128x128`, `256x256` and `512x512`.
 
 ```sh
 ./image-resize -s 128 -s 256 -s 512 ~/project/logos ~/project/output
@@ -44,6 +44,23 @@ And you're done, you can now run the program with the help flag to see the usage
 ```
 
 ## Documentation
+
+### Usage
+
+```sh
+$ usage: image-resize [-h] [-v] [-s SIZE] INPUT OUTPUT
+
+Simple utility to quickly resize squared images
+
+Positional arguments:
+  INPUT                 Input file or directory
+  OUTPUT                Output directory
+
+Optional arguments:
+  -h, --help            Show this help message and exit.
+  -v, --version         Show program's version number and exit.
+  -s SIZE, --size SIZE  Size of the output, can be specified multiple times
+```
 
 ## Contributing
 
