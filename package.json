@@ -2,7 +2,7 @@
   "name": "logo-resize",
   "version": "1.0.0",
   "description": "Utility to quickly resize image",
-  "main": "image-resize",
+  "main": "index.js",
   "author": "Alexandre Frigon",
   "license": "MIT",
   "dependencies": {

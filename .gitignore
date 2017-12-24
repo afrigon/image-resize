@@ -59,3 +59,6 @@ typings/
 
 # vscode
 launch.json
+
+#MACOS
+.DS_Store
