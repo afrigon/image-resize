@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 
 const startTime = new Date().getTime();
@@ -93,6 +94,20 @@ function fatalError(err) {
     return console.log(`image-resize: error: ${err instanceof Error ? err.message : "an unknown error occured"}`) & process.exit();
 }
 
+// module.resize = (input, output, sizes, callback) => {
+//     (async () => {
+//         try {
+//             if (args.sizes) {
+//                 const inputInfo = await getInputFiles(path.resolve(input));
+//                 const outputDirectory = await getOutputDirectory(path.resolve(output));
+//                 await resizeAll(inputInfo.files, inputInfo.directory, outputDirectory, sizes);
+//             }
+//             return callback();
+//         } catch (err) {
+//             return callback(err);
+//         }
+//     })();
+// };
 (async () => {
     try {
         if (args.sizes) {
