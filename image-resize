@@ -6,7 +6,6 @@ const extFilters = ["jpeg", "jpg", "png", "webp", "tiff", "gif", "svg"];
 
 // lib
 const sharp = require("sharp");
-const async = require("async");
 const ArgumentParser = require("argparse").ArgumentParser;
 const fs = require("fs-extra");
 const path = require("path");
