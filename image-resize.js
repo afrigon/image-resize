@@ -116,7 +116,5 @@ function fatalError(err) {
             await resizeAll(inputInfo.files, inputInfo.directory, outputDirectory, args.sizes);
         }
         console.log(`image-resize: done in ${new Date().getTime() - startTime}ms`);
-    } catch (err) {
-        fatalError(err);
-    }
+    } catch (err) { fatalError(err); }
 })();
