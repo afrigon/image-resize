@@ -47,7 +47,7 @@ And you're done, you can now run the program with the help flag to see the usage
 
 ### Usage
 
-```sh
+```
 $ usage: image-resize [-h] [-v] [-s SIZE] INPUT OUTPUT
 
 Simple utility to quickly resize squared images
