@@ -24,11 +24,11 @@ parser.addArgument(["-s", "--size"], {
     dest: "sizes"
 });
 parser.addArgument("input", {
-    help: "input dir or file",
+    help: "Input file or directory",
     metavar: "INPUT"
 });
 parser.addArgument("output", {
-    help: "output dir or file",
+    help: "Output directory",
     metavar: "OUTPUT"
 });
 const args = parser.parseArgs();

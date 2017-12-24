@@ -1,6 +1,6 @@
 {
-  "name": "logo-resize",
-  "version": "1.0.0",
+  "name": "image-resize",
+  "version": "1.0.1",
   "description": "Utility to quickly resize image",
   "main": "index.js",
   "author": "Alexandre Frigon",
