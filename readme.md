@@ -19,7 +19,7 @@ In this example my source is a directory located at `~/project/logos` and my des
 ./image-resize -s 128 -s 256 -s 512 ~/project/logos ~/project/output
 ```
 
-## Instalation
+## Installation
 
 ### Manual
 
