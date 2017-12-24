@@ -3,7 +3,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 [![Dependency Status](https://david-dm.org/afrigon/image-resize/status.svg)](https://david-dm.org/afrigon/image-resize)
 
-This command line interface enables you to resize squared inmages to desired size super quickly.
+This command line interface enables you to resize squared images to desired size super quickly.
 
 ## Use Cases
 
@@ -41,6 +41,18 @@ And you're done, you can now run the program with the help flag to see the usage
 
 ```sh
 ./image-resize -h
+```
+
+If you plan on using Image-resize frequently you can make it available from anywhere on your system by moving it
+
+```sh
+sudo mv image-resize /usr/bin/image-resize
+```
+
+then you'll be able to do this from anywhere
+
+```sh
+image-resize -v
 ```
 
 ## Documentation
