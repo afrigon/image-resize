@@ -1,0 +1,12 @@
+{
+  "name": "logo-resize",
+  "version": "1.0.0",
+  "description": "Utility to quickly resize image",
+  "main": "index.js",
+  "author": "Alexandre Frigon",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "sharp": "^0.18.4"
+  }
+}
