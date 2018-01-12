@@ -1,7 +1,6 @@
 ![](http://res.cloudinary.com/frigstudio/image/upload/v1514115143/image-resize-banner_guzwlg.jpg)
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-[![Dependency Status](https://david-dm.org/afrigon/image-resize/status.svg)](https://david-dm.org/afrigon/image-resize)
 
 This command line interface enables you to resize squared images to desired size super quickly.
 
