@@ -65,6 +65,6 @@ Optional arguments:
 
 Feel free to create pull requests I would be happy to see this little tool evolve.
 
-### License
+## License
 
 Image-resize is [MIT licensed](./LICENSE).
